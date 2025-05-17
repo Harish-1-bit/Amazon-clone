@@ -1,0 +1,302 @@
+*{
+    padding: px;
+    margin:0px;
+    /* border: border-box; */
+}
+
+.navbar{
+    height: 55px;
+    width: 6000px;
+    background-color: #131921;
+    color: white;
+    display : flex;
+
+}
+.navbox{
+display: flex;
+justify-content: space-evenly;
+}
+.border:hover{
+    border: 2px solid rgb(255, 255, 255);
+
+ border-radius: 5px ;
+
+}
+
+
+img{
+    margin: 5px;
+ height: 50px;
+ width: 114px;
+}
+
+.navad{
+    margin-left: 20px;
+    padding: 5px;
+    color: white;
+}
+
+.loc{
+    display: flex;
+    
+}
+
+.add-1{
+    padding: 0px 0px 0px 15px;
+    color: #CCCC;
+}
+
+.add-2{
+    padding-left: 4px;
+    color: #ffff;
+    font-size: 1.1rem;
+}
+#opt{
+    
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    background-color: #e2ded9;
+    border-radius: 7px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+.sea{
+    width: 861px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#button{
+    display: flex;
+    background-color: #febd69;
+    height: 40px;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.lang{
+    display: flex;
+    position: relative;
+    left: 5px;
+
+}
+
+#flag{
+   position: relative;
+   top: 20px;
+   height: 21.6px;
+   width: 21.6px;
+   
+}
+
+.language{
+    padding-top: 28px;
+    font-size: 1.rem;
+    font-weight: bold;
+   
+}
+
+#arrow{
+    padding-left: 5px;
+    padding-top: 25px;
+    height: 4px;
+    width: 8px;
+}
+.sign{
+    position: relative;
+    left: 30px;
+    padding: 5px;
+    padding-top: 10px;
+
+   
+}
+
+.return{
+  position: relative;
+  left: 50px;
+  text-align: center;
+  padding-top: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.account{
+    font-weight: bold;
+}
+
+.order{
+    font-weight: bold;
+}
+
+.cart{
+    padding: 10px;
+    position: relative;
+    left: 60px;
+    display: flex;
+    align-items:center
+  
+}
+
+.carttext{
+    font-size: 1.3rem;
+}
+
+.con{
+    display: flex;
+
+}
+
+.panel{
+    background-color:#232f3e;
+    width: 1660px;
+    height: 39px;
+}
+
+#menu{
+    height: 14px;
+    width: 17px;
+    color: wheat;
+    position: relative;
+    left:5px;
+    top: 6px;
+}
+
+.all{
+    color: white;
+    font-weight: bold;
+}
+
+
+.deal{
+    color: white;
+    position: relative;
+    left: 20px;
+}
+
+.reg,.deal , .reg , .custom, .gift, .sell {
+    color: white;
+    position: relative;
+    left: 4px;
+    padding: 11px;
+    height: 10px;
+    width: 30px;
+}
+.back{
+    background-image: url(amabg.jpg);
+    height: 400px; 
+    display: flex;
+    background-size: cover; 
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+
+  
+}
+.backgroundtext{
+    background-color: white;
+    color: black;  
+    height: 40px;
+    width: 80%;
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 88px;
+    border-radius: 2px;
+}
+
+
+#link:hover{
+   color: #2162a1;
+}
+#link{
+    color: black;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.box{
+    width: 20%;
+    height : 420px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+#con1,#con2,#con3,#con4{
+
+    height: 320px;
+    width: 296px;
+    border-radius: 20px;
+}
+
+.backto{
+    color: white;
+    background-color: #37475a;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 1.1rem;
+}
+
+.fcon{
+    width: 100%;
+    height: 350px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.getkn{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.lt1,.lt2{
+    padding-top:10px;
+    position: relative;
+    right: 38px;
+}
+
+.last{
+    background-color: #232f3e;
+    border-top: #3a4553 .1px solid;
+    padding-top: 30px;
+    display: flex;
+   justify-content: center;
+}
+
+.langu, .region{
+    margin-right: 60px;
+    font-size: 1rem;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    border: #848688 solid 1px;
+    height: 23px;
+    width: 114px;
+}
+
+.us{
+    margin-right: 60px;
+    padding: 5px 35px 0px 35px;
+    color: white;
+    border: #848688 solid 1px;
+    width: auto;
+    height: 23px;
+}
