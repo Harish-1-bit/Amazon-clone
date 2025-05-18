@@ -1,0 +1,1 @@
+This project is a static clone of the Amazon homepage, built entirely with HTML and CSS. It aims to closely replicate the core layout, design, and user experience of the original Amazon website, providing a hands-on way to learn and demonstrate front-end development skills
